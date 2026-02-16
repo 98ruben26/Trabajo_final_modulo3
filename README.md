@@ -12,13 +12,20 @@ La documentación se organiza de la siguiente manera para facilitar la auditorí
 Plaintext
 
 ├── 📂 docs
+
 │   ├── 📂 architecture       # Diagramas C4, Flujos de Secuencia y ERD.
+
 │   ├── 📂 api-contracts      # Archivos YAML/JSON (OpenAPI Spec).
+
 │   ├── 📂 adr                # Architectural Decision Records (Decisiones clave).
+
 │   └── 📂 business-rules     # Lógica de negocio y validación de contratos.
+
 ├── 📂 resources              # Assets, imágenes y prototipos de UI.
+
 └── README.md                 # Guía principal (este archivo).
-🛠️ Especificaciones de la API (Contratos)
+
+Especificaciones de la API (Contratos)
 El diseño de la comunicación entre servicios se basa en el principio API-First.
 Recurso	Método	Endpoint	Descripción	Estado
 Auth	POST	/api/v1/auth/login	Autenticación de usuarios.	
